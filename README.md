@@ -45,7 +45,7 @@ LaravelRosterAdmin is a web-based application designed specifically for managing
 - Generate the application key:
    ```sh
     php artisan key:generate
-    ```
+   ```
 
 
 5. **Run the migrations and seeders**:
@@ -53,11 +53,11 @@ LaravelRosterAdmin is a web-based application designed specifically for managing
 
     ```sh
     php artisan key:generate
-    ```
+   ```
 
 6. **Run the application**:
 
 Start your web server and navigate to the application's root directory:
    ```sh
     php artisan serve
-    ```
+   ```
