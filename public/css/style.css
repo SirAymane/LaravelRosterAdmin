@@ -1,0 +1,126 @@
+/* Set background color */
+body {
+    background-color: #f8f9fa;
+    table-layout: auto;
+    text-align: auto;
+}
+
+/* Header */
+header {
+    background-image: url('/images/basketball_banner.jpg');
+    height: 22.5rem;
+    margin-top: -15rem;
+    position: relative;
+    z-index: -1;
+    /* Move the background image behind other elements */
+}
+
+:root {
+    --header-button-background: #17408B; 
+}
+
+
+
+:root th {
+    background-color: #344E62;
+    font-weight: bold;
+    text-align: left;
+    padding: 15px;
+}
+
+/* Header icon */
+#navbar-icon {
+    max-width: 3rem;
+}
+
+.th {
+    background-color: red;
+    color: white;
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: #000000;
+    color: #C9082A;
+}
+
+/* Footer */
+#container-foot {
+    background-color: #e7657d;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #17408B;
+    color: #fff;
+}
+
+/* Features section */
+.features {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* Cards */
+.card {
+    margin-bottom: 2rem;
+}
+
+/* Card title */
+.card-title {
+    font-size: 1.25rem;
+}
+
+/* Card text */
+.card-text {
+    font-size: 1rem;
+}
+
+/* Basketball drawing image */
+img {
+    max-width: 3rem;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer h3 {
+    color: #fff;
+}
+
+footer ul.list-inline li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer ul.list-inline li a i {
+    font-size: 24px;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+footer ul.list-inline li a i:hover {
+    transform: translateY(-3px);
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+
+footer hr {
+    border-top: 1px solid #fff;
+}
+
+footer p.text-center {
+    margin-top: 20px;
+}
+
+.table-primary thead th {
+    background-color: red;
+    color: white;
+}
